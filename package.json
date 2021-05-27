@@ -1,0 +1,15 @@
+{
+  "name": "my-holiday-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mysass": "node-sass -w main.scss style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
