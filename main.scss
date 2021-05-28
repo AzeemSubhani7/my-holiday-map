@@ -4,6 +4,8 @@
     margin: 0; 
     padding: 0;
     box-sizing: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 html {
@@ -352,10 +354,11 @@ body {
     margin-top: 1.5rem;
 }
 .section-1-4-value-1{
+    -webkit-width: 11.3rem;
     display: inline-block;
     position: relative;
     height: 6rem;
-    width: 14rem;
+    width: 11.3rem;
     border-radius: 2rem;
     background-color: #fff;
     box-shadow: 0rem 0.8rem 2rem rgba(#000,.1);
@@ -366,7 +369,7 @@ body {
     border-radius: 2rem;
     display: inline-block;
     height: 6rem;
-    width: 14rem;
+    width: 11.3rem;
     margin-left: 1.6rem;
     background-color: #fff;
     box-shadow: 0rem 0.8rem 2rem rgba(#000,.1);
@@ -377,7 +380,7 @@ body {
     display: inline-block;
     height: 6rem;
     margin-left: 1.6rem;
-    width: 14rem;
+    width: 11.3rem;
     background-color: #fff;
     box-shadow: 0rem 0.8rem 2rem rgba(#000,.1);
 }
@@ -388,7 +391,7 @@ body {
     left: 1.5rem;
 }
 .section-1-4-time {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #000;
     position: absolute;
     z-index: 71;
@@ -401,11 +404,12 @@ body {
 .section-1-4-visible {
     position: absolute;
     z-index: 72;
-    top: 0.5rem;
-    left: 9.5rem;
+    top: 0;
+    right: 0px;
+    transform: translate(457%,50%);
 }
 .section-1-4-distance {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #000;
     position: absolute;
     z-index: 71;
@@ -413,7 +417,10 @@ body {
     // left: 3.5rem;
     top: 0;
     left: 0;
-    transform: translate(60%, 7%);
+    transform: translate(58%, -8%);
+    -moz-transform: translate(50%, -8%);
+    // transform: translate(60%, 7%);
+    // -webkit-transform: translate(54%, 4%);
     display: block ruby;
 }
 .section-1-5 {
@@ -426,7 +433,7 @@ body {
     position: absolute;
     z-index: 50;
     top: 0;
-    right: 4rem;
+    right: 2.5rem;
 }
 .input-section-1-5 {
     width: 80%;
