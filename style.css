@@ -102,7 +102,7 @@ body {
   .heading-main {
     font-size: 1.5rem !important; }
   .input {
-    font-size: 1rem !important; }
+    font-size: 0.8rem !important; }
   .input::placeholder {
     font-size: .85rem !important; }
   .btn-main {
@@ -111,7 +111,7 @@ body {
     border-bottom-left-radius: 1.3rem !important;
     border-bottom-right-radius: 1.3rem !important; }
   .btn {
-    padding: 0.97rem 3.7rem !important; }
+    padding: 0.75rem 3.7rem !important; }
   .icons {
     height: 0rem !important;
     transform: translateX(-48px) !important; }
@@ -124,7 +124,14 @@ body {
   .section-1-4-clock {
     -webkit-transform: translate(33%, 1%) !important; }
   .section-1-4-visible {
-    transform: translate(507%, 44%) !important; } }
+    transform: translate(462%, 44%) !important; }
+  #middle-visible {
+    transform: translate(350%, 44%) !important; }
+  .middle-km {
+    transform: translate(22%, 44%) !important; } }
+
+.middle-visible {
+  transform: translate(446%, 44%) !important; }
 
 .section-1 {
   flex: 5;
